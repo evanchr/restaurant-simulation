@@ -1,4 +1,4 @@
-@evcharrier - @magaultier
+@evanchr - @mathisglt
 
 # Gestion d’un Restaurant en Java
 

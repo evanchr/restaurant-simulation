@@ -1,0 +1,24 @@
+# Fichiers et dossiers de build Maven
+/target/
+/.idea/
+/.vscode/
+/*.iml
+
+# Fichiers temporaires de l'IDE
+.DS_Store
+*.log
+
+# Fichiers JavaFX générés
+/.classpath
+/.project
+/.settings/
+
+# Fichiers Maven spécifiques
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Fichiers système (macOS, Windows, etc.)
+Thumbs.db
+*.swp
