@@ -4,12 +4,9 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-import java.util.concurrent.Semaphore;
-
 public class RestaurantUI extends Application {
 
     private TextArea logArea;
-    private Restaurant restaurant;
 
     @Override
     public void start(Stage primaryStage) {
@@ -31,7 +28,7 @@ public class RestaurantUI extends Application {
 
     private void lancerSimulation() {
         new Thread(() -> {
-            restaurant = new Restaurant();
+            new Restaurant();
         }).start();
     }
 
